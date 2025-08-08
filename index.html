@@ -2,41 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Swapnil Patil | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swapnil Patil | Software Developer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <nav class="navbar">
+    <div class="logo">Swapnil Patil</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
     <div class="container">
-      <img src="IMG_0137.jpeg" alt="Profile Photo" class="profile-img" />
-      <h1>Swapnil Patil</h1>
-      <p>Web Developer • UI Designer • Freelancer</p>
-      <a href="mailto:Gurupatil07@icloud.com" class="btn">Hire Me</a>
+      <div class="hero-text">
+        <h1>Hello<span class="dot">.</span></h1>
+        <h2>I'm <span class="name">Swapnil</span></h2>
+        <h3>Software Developer</h3>
+        <div class="hero-buttons">
+          <a href="#" class="btn primary">Got a project?</a>
+          <a href="#" class="btn secondary">My resume</a>
+        </div>
+        <div class="tech-stack">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Node.js</span>
+          <span>React</span>
+          <span>Git</span>
+          <span>GitHub</span>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="IMG_0140.jpeg" alt="Swapnil Patil">
+      </div>
     </div>
   </header>
 
-  <section class="projects">
-    <h2>My Projects</h2>
-    <div class="project-list">
-      <div class="project">
-        <h3>Trawise Website</h3>
-        <p>Investment-based site with Firebase & Razorpay</p>
-        <a href="https://yourlink.com" target="_blank">View</a>
-      </div>
-      <div class="project">
-        <h3>Mandal Saving App</h3>
-        <p>User login, QR payments, profile system – hosted on GitHub</p>
-        <a href="https://swapnilpatil001.github.io/Mandalsaving/" target="_blank">View</a>
-      </div>
-      <!-- Add more projects -->
+  <section class="services">
+    <h2>What I Do</h2>
+    <div class="service-cards">
+      <div class="card">🌐 Website Development</div>
+      <div class="card">📱 App Development</div>
+      <div class="card">☁️ Website Hosting</div>
     </div>
   </section>
 
-  <footer>
-    <p>© 2025 Swapnil Patil | Connect on 
-      <a href="https://instagram.com/yourid" target="_blank">Instagram</a>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate web developer who loves building user-friendly and responsive websites.
+      With a strong foundation in front-end technologies, I enjoy transforming creative ideas into working solutions.
+      Always learning and building.
     </p>
+    <div class="stats">
+      <div><strong>20+</strong><br>Completed Projects</div>
+      <div><strong>95%</strong><br>Client Satisfaction</div>
+      <div><strong>1+</strong><br>Year Experience</div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <p style="text-align: center; color: #aaa;">Coming Soon...</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Swapnil Patil. All rights reserved.</p>
   </footer>
 </body>
 </html>
